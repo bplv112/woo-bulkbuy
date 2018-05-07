@@ -63,7 +63,7 @@ class Styles {
 	
     public function enqueue() {
 
-		wp_enqueue_script( 'woo-ws-custom', WWS_FILE_URL.'/assets/js/main.js', array('jquery'), '1.0.0', true );
+		wp_enqueue_script( 'woo-ws-custom', WWS_FILE_URL.'/js/main.js', array('jquery'), '1.0.0', true );
 
 
     }
