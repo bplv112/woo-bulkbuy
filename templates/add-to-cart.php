@@ -33,16 +33,12 @@ if ( $product->is_in_stock() ) : ?>
 
 	<form class="cart" action="" method="post" enctype='multipart/form-data' id="<?php echo get_the_ID(); ?>">
 		<?php
- 
-            $min  = '0';
-            $step = 'any';
-		   
+ 		   
             echo woocommerce_quantity_input(array(
                                 'input_name'    => "quickbuy-".get_the_ID(),
                                 'max_value'     => $product->get_max_purchase_quantity(),
                                 'min_value'     => '0',
                                 'product_name'  => $product->get_name(),
-                                'step'          => $step
                             ), $product, false );
 		?>
 

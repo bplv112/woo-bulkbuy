@@ -12,12 +12,9 @@ WooCommerce Bulk Buy's free version add a quantity selector to your simple produ
 
 == Description ==
 
-<strong>WP Easy Share</strong> is a <strong>COMPLETELY Free WordPress plugin</strong> and is your ultimate solution to your need of adding social share feature on your website.
+<strong>WOO Bulkbuy</strong> is an <strong>easy to use Free WordPress plugin</strong> and helps you select number of products while adding it to your cart form the shop page. 
 
-It is the perfect plugin for your social share problem on your website.
-Since this plugin is completely free and dynamic you can completely rely on the plugin to provide your the best social share features that you always desired.
-
-Just get it done in a few minutes!
+How many times have we faced the problem where we want to allow to add their desired number of products to the cart without visiting the single product page ? This is the solution to your problem, now you users can quickly select the number of products easy.  
 
 
 If you would like to request any features to be added on the plugin just create a thread and I will try my best to include the feature, I promise :) .
