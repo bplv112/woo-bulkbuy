@@ -17,7 +17,7 @@ namespace WPD\WWS\Activator;
  */
 class Activator {
 
-	private function activate(){
+	public function activate(){
 		
 	}
 
