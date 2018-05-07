@@ -13,8 +13,8 @@
  * @package           Woo_Ws
  *
  * @wordpress-plugin
- * Plugin Name:       Woo Wholesale
- * Plugin URI:        https://github.com/bplv112/woo-wholesale
+ * Plugin Name:       Woo Bulkbuy
+ * Plugin URI:        https://github.com/bplv112/woo-bulkbuy
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
  * Author:            Biplav Subedi
@@ -24,7 +24,9 @@
  * Text Domain:       woo-ws
  * Domain Path:       /languages
  */
+
 namespace WPD\WWS;
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
@@ -91,29 +93,12 @@ function deactivate() {
 register_activation_hook( __FILE__, 'WPD\\WWS\\activate' );
 register_deactivation_hook( __FILE__, 'WPD\\WWS\\deactivate' );
 
-/**
- * The core plugin class that is used to define internationalization,
- * admin-specific hooks, and public-facing site hooks.
- */
-// require plugin_dir_path( __FILE__ ) . 'includes/class-woo-ws.php';
 
 /**
  * Begins execution of the plugin.
  *
- * Since everything within the plugin is registered via hooks,
- * then kicking off the plugin from this point in the file does
- * not affect the page life cycle.
- *
  * @since    1.0.0
  */
-// function run_woo_ws() {
-
-// 	$plugin = new Woo_Ws();
-// 	$plugin->run();
-
-// }
-// run_woo_ws();
-
 
 function init() {
     $template = Woo\Template::get_instance();
