@@ -17,7 +17,7 @@ namespace WPD\WWS\Activator;
  */
 class Activator {
 
-	public function activate(){
+	public static function activate(){
 		
 	}
 

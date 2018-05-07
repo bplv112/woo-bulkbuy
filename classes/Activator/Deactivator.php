@@ -17,7 +17,7 @@ namespace WPD\WWS\Activator;
  */
 class Deactivator {
 
-	public function deactivate(){
+	public static function deactivate(){
 		
 	}
 
