@@ -47,8 +47,6 @@ If you have any question, suggestion or issue, please [post here](https://wordpr
 
 == Show some love ==
 
-Unordered list:
-
 * Check our themes [WP Drizzle](https://wpdrizzle.com/products)
 * Rate us [here] (http://wordpress.org/support/view/plugin-reviews/wp-bulkbuy)
 
