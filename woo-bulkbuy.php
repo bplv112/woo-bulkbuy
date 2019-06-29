@@ -16,7 +16,7 @@
  * Plugin Name:       Woo Bulkbuy
  * Plugin URI:        https://github.com/bplv112/woo-bulkbuy
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Biplav Subedi
  * Author URI:        https://wpdrizzle.com/
  * License:           GPL-2.0+
@@ -44,6 +44,8 @@ define( 'WWS_ARCHIVE_ACTIVATE',false );
 
 /**
  * Autoload classes.
+ * 
+ * @since 1.0.1 updated version no
  */
 spl_autoload_register(function ($class) {
 
