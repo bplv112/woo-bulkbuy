@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/bplv112/woo-bulkbuy#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.2",
     "grunt-check-dependencies": "^1.0.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
@@ -28,7 +28,7 @@
     "grunt-push-svn": "^0.2.2",
     "grunt-svn-export": "^0.1.7",
     "grunt-text-replace": "^0.4.0",
-    "grunt-wp-deploy": "^1.2.0",
-    "grunt-wp-i18n": "^0.5.4"
+    "grunt-wp-deploy": "^2.1.2",
+    "grunt-wp-i18n": "^1.0.3"
   }
 }
